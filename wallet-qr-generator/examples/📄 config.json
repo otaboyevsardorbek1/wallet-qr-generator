@@ -1,0 +1,22 @@
+{
+  "name": "Example Batch Configuration",
+  "description": "Sample configuration for batch QR generation",
+  "version": "1.0",
+  "addresses": [
+    "UQDe1kBdULQE3RBtE24jIZYDD7nPov5S-xM-PA3dCzGXHc7X",
+    "0x742d35Cc6634C0532925a3b844Bc9e90a3b9e0a1",
+    "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq"
+  ],
+  "style": "professional",
+  "color": "#2E86C1",
+  "background": "white",
+  "size": 7,
+  "error_correction": "H",
+  "border": 4,
+  "title": "COMPANY WALLET",
+  "subtitle": "Official Crypto Address",
+  "show_address": true,
+  "add_logo": false,
+  "output_dir": "company_qr_codes",
+  "filename_prefix": "company_wallet"
+}
