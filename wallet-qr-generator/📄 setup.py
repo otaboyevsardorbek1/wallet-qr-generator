@@ -15,11 +15,11 @@ setup(
     description="Professional CLI tool for generating beautiful crypto wallet QR codes",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/username/wallet-qr-generator",
+    url="https://github.com/otaboyevsardorbek1/wallet-qr-generator/",
     project_urls={
-        "Bug Tracker": "https://github.com/username/wallet-qr-generator/issues",
-        "Documentation": "https://github.com/username/wallet-qr-generator/wiki",
-        "Source Code": "https://github.com/username/wallet-qr-generator",
+        "Bug Tracker": "https://github.com/otaboyevsardorbek1/wallet-qr-generator/issues",
+        "Documentation": "https://github.com/otaboyevsardorbek1/wallet-qr-generator/wiki",
+        "Source Code": "https://github.com/otaboyevsardorbek1/wallet-qr-generator/",
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
