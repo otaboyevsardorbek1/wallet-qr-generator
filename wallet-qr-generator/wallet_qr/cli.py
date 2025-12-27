@@ -10,9 +10,9 @@ from pathlib import Path
 from typing import List, Optional, Dict, Any
 import textwrap
 
-from .generator import QRGenerator
-from .styles import QRConfig, ColorScheme, StyleManager
-from .utils import (
+from generator import QRGenerator
+from styles import QRConfig, ColorScheme, StyleManager
+from utils import (
     validate_wallet_address, 
     create_output_dir, 
     save_config, 
@@ -25,7 +25,7 @@ from .utils import (
     clear_screen,
     get_terminal_width
 )
-from .exceptions import WalletQRException, InvalidAddressError
+from .exceptions import WalletQRException, InvalidAddressError # pyright: ignore[reportMissingImports]
 
 class WalletQRCLI:
     """Professional CLI interface for Wallet QR Generator"""
